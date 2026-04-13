@@ -1,3 +1,28 @@
-components: []
+components:
+- components:
+  - components:
+    - layout_properties: {width: 200, x: 0, y: 0}
+      name: image_1
+      properties:
+        display_mode: zoom_to_fill
+        margin: ['-50', null, null, '-40']
+        source: _/theme/icon.png
+      type: Image
+    layout_properties: {width: 102, x: 118.046875, y: 0}
+    name: xy_panel_2
+    properties: {height: 100}
+    type: XYPanel
+  - layout_properties: {width: 200, x: 295.046875, y: 0}
+    name: rich_text_1
+    properties: {content: CousinCraft - Crossplay Edition, format: markdown}
+    type: RichText
+  - layout_properties: {width: 200, x: 295.046875, y: 48.046875}
+    name: rich_text_2
+    properties: {content: Now With Emotionally Stable Ghasts}
+    type: RichText
+  layout_properties: {full_width_row: true, grid_position: 'PXZERV,SIIWRA'}
+  name: xy_panel_1
+  properties: {height: 100, role: minecraft_banner}
+  type: XYPanel
 container: {type: ColumnPanel}
 is_package: true

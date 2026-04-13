@@ -1,0 +1,29 @@
+.anvil-role-minecraft_banner {
+  background-image: url("_/theme/banner_placeholder.jpg"); /* Upload your image to Assets first */
+  background-size: cover;
+  background-position: center;
+  height: 300px; /* Forces the height you want */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centers text vertically - change as needed */
+  align-items: center;     /* Centers text horizontally - change as needed */
+}
+
+/* Style for the main Headline */
+.anvil-role-headline {
+  font-family: 'Minecraft', sans-serif; /* Assumes you've uploaded the font */
+  font-size: 32px;
+  color: #552583; /* Your Minecraft purple */
+  font-weight: bold;
+  text-shadow: 2px 2px #000000; /* Gives it that classic UI pop */
+  margin-bottom: 5px;
+}
+
+/* Style for the Sub-headline */
+.anvil-role-subheadline {
+  font-family: 'Minecraft', sans-serif;
+  font-size: 18px;
+  color: #ffffff; /* White or light grey */
+  font-style: italic;
+  text-shadow: 1px 1px #000000;
+}
