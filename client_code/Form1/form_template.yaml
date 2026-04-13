@@ -12,13 +12,20 @@ components:
     name: xy_panel_2
     properties: {height: 100}
     type: XYPanel
-  - layout_properties: {width: 200, x: 295.046875, y: 0}
-    name: rich_text_1
-    properties: {content: CousinCraft - Crossplay Edition, format: markdown}
-    type: RichText
-  - layout_properties: {width: 200, x: 295.046875, y: 48.046875}
+  - layout_properties: {width: 439, x: 295.046875, y: 48.046875}
     name: rich_text_2
-    properties: {content: Now With Emotionally Stable Ghasts}
+    properties: {content: Now With Emotionally Stable Ghasts, role: subheadline}
+    type: RichText
+  - data_bindings: []
+    layout_properties: {width: 737, x: 296.09375, y: 0}
+    name: rich_text_1
+    properties:
+      align: left
+      content: CousinCraft - Crossplay Edition
+      format: markdown
+      role: headline
+      spacing:
+        margin: ['-60', null, null, null]
     type: RichText
   layout_properties: {full_width_row: true, grid_position: 'PXZERV,SIIWRA'}
   name: xy_panel_1

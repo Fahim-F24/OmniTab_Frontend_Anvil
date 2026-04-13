@@ -1,5 +1,7 @@
 roles:
 - components: [XYPanel]
   name: minecraft_banner
-- components: [RichLabel]
+- components: [RichText]
   name: headline
+- components: [RichText]
+  name: subheadline
