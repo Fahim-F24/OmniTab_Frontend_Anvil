@@ -38,5 +38,10 @@ components:
     margin: ['-10', null, null, null]
     role: minecraft_banner
   type: XYPanel
+- event_bindings: {}
+  layout_properties: {grid_position: 'AINCKC,VNOGUI'}
+  name: button_1
+  properties: {text: button_1}
+  type: Button
 container: {type: ColumnPanel}
 is_package: true
