@@ -29,7 +29,10 @@ components:
     type: RichText
   layout_properties: {full_width_row: true, grid_position: 'PXZERV,SIIWRA'}
   name: xy_panel_1
-  properties: {height: 100, role: minecraft_banner}
+  properties:
+    height: 100
+    margin: ['0', null, null, null]
+    role: minecraft_banner
   type: XYPanel
 container: {type: ColumnPanel}
 is_package: true
