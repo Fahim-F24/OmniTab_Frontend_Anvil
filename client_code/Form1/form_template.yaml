@@ -35,7 +35,7 @@ components:
   name: xy_panel_1
   properties:
     height: 100
-    margin: ['-5', null, null, null]
+    margin: ['-10', null, null, null]
     role: minecraft_banner
   type: XYPanel
 container: {type: ColumnPanel}
