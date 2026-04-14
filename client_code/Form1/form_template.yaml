@@ -14,7 +14,11 @@ components:
     type: XYPanel
   - layout_properties: {width: 439, x: 295.046875, y: 48.046875}
     name: rich_text_2
-    properties: {content: Now With Emotionally Stable Ghasts, role: subheadline}
+    properties:
+      content: Now With Emotionally Stable Ghasts
+      role: subheadline
+      spacing:
+        margin: ['-75', null, null, null]
     type: RichText
   - data_bindings: []
     layout_properties: {width: 737, x: 296.09375, y: 0}
@@ -25,13 +29,13 @@ components:
       format: markdown
       role: headline
       spacing:
-        margin: ['-60', null, null, null]
+        margin: ['-90', null, null, null]
     type: RichText
   layout_properties: {full_width_row: true, grid_position: 'PXZERV,SIIWRA'}
   name: xy_panel_1
   properties:
     height: 100
-    margin: ['0', null, null, null]
+    margin: ['-5', null, null, null]
     role: minecraft_banner
   type: XYPanel
 container: {type: ColumnPanel}
