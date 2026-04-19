@@ -76,7 +76,7 @@ components:
   properties:
     align: center
     background: '#382517'
-    gap: medium
+    gap: small
     spacing:
       margin: ['0', null, '0', null]
   type: FlowPanel
