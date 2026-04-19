@@ -47,7 +47,7 @@
   font-size: 48px;
   color: #fcf1de; /* Your Minecraft purple */
   font-weight: bold;
-  text-shadow: 2px 2px #000000; /* Gives it that classic UI pop */
+  text-shadow: 4px 4px #000000; /* Gives it that classic UI pop */
   margin-bottom: 5px;
 }
 
@@ -57,6 +57,6 @@
   font-size: 28px;
   color: #fcf1de; /* White or light grey */
   font-style: italic;
-  text-shadow: 1px 1px #000000;
+  text-shadow: 2px 2px #000000;
 }
 
