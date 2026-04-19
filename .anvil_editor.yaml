@@ -5,8 +5,9 @@ unique_ids:
     standard-page.html: 3FWQBGOXQSPFURMGJI5LLTI4XCZRZFW3
     theme.css: BYWHSV3BYXBZNT565HIOIT6TYSGJDASQ
   forms:
-    Form1: '1776099186656126857527946.95004'
     Form2: '1776194412228234293309158.40817'
+    StatusBadge: '1776595035479292258425049.3264'
+    minecraft_server_screen: '1776099186656126857527946.95004'
   modules: {}
   scripts: {}
   server_modules: {}

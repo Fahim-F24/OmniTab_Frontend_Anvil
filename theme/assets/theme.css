@@ -1,3 +1,15 @@
+/* The general shape for all badges */
+.anvil-role-status-badge {
+  background-color: #fcf1de; /* Default light cream */
+  border: 1px solid #dcd0b9;
+  border-radius: 15px;       /* Makes it a "pill" shape */
+  padding: 2px 10px;
+  display: inline-flex;
+  align-items: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
 .anvil-role-minecraft_banner {
   background-image: url("_/theme/banner_placeholder.jpg"); /* Upload your image to Assets first */
   background-size: cover;

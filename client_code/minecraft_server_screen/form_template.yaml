@@ -2,7 +2,7 @@ components:
 - components:
   - components:
     - layout_properties: {width: 200, x: 0, y: 0}
-      name: image_1
+      name: server_logo
       properties:
         display_mode: zoom_to_fill
         margin: ['-50', null, null, '-40']
@@ -13,7 +13,7 @@ components:
     properties: {height: 100}
     type: XYPanel
   - layout_properties: {width: 439, x: 295.046875, y: 48.046875}
-    name: rich_text_2
+    name: motd_tagline
     properties:
       content: Now With Emotionally Stable Ghasts
       role: subheadline
@@ -22,26 +22,33 @@ components:
     type: RichText
   - data_bindings: []
     layout_properties: {width: 737, x: 296.09375, y: 0}
-    name: rich_text_1
+    name: motd_title
     properties:
       align: left
       content: CousinCraft - Crossplay Edition
       format: markdown
       role: headline
       spacing:
-        margin: ['-90', null, null, null]
+        margin: ['-86', null, null, null]
+        padding: ['0', null, null, null]
     type: RichText
   layout_properties: {full_width_row: true, grid_position: 'PXZERV,SIIWRA'}
-  name: xy_panel_1
+  name: minecraft_banner_XYpanel
   properties:
-    height: 100
-    margin: ['-30', null, null, null]
+    height: '100'
+    margin: ['0', null, '0', null]
     role: minecraft_banner
   type: XYPanel
-- event_bindings: {}
-  layout_properties: {grid_position: 'AINCKC,VNOGUI'}
-  name: button_1
-  properties: {text: button_1}
-  type: Button
+- layout_properties: {full_width_row: true, grid_position: 'CKVJSB,RMXBMK'}
+  name: status_linear_panel
+  properties: {}
+  type: LinearPanel
+- layout_properties: {full_width_row: true, grid_position: 'BZIHGZ,CNBQKO'}
+  name: flow_panel_1
+  properties:
+    gap: none
+    spacing:
+      padding: [0, null, 0, null]
+  type: FlowPanel
 container: {type: ColumnPanel}
 is_package: true
