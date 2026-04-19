@@ -5,5 +5,4 @@ roles:
   name: headline
 - components: [RichText]
   name: subheadline
-- components: [Flow_Panel]
-  name: status-badge
+- {components: null, display_in_toolbox: true, name: status-badge}
