@@ -14,7 +14,7 @@ components:
       content: Now With Emotionally Stable Ghasts
       role: subheadline
       spacing:
-        margin: ['-20', null, null, '25']
+        margin: ['60', null, null, '25']
         padding: ['0', null, '0', null]
     type: RichText
   - data_bindings: []
@@ -27,7 +27,7 @@ components:
       format: markdown
       role: headline
       spacing:
-        margin: ['-65', null, null, '20']
+        margin: ['10', null, null, '20']
         padding: ['0', null, '0', null]
     type: RichText
   - layout_properties: {width: 239, x: 67.09375, y: 0}
@@ -35,7 +35,7 @@ components:
     properties:
       display_mode: zoom_to_fill
       height: 268
-      margin: ['-86', null, null, null]
+      margin: ['15', null, null, null]
       source: _/theme/Cream CCS4_XL.png
     type: Image
   layout_properties: {full_width_row: true, grid_position: 'PXZERV,SIIWRA'}
