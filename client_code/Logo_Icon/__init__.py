@@ -1,8 +1,8 @@
-from ._anvil_designer import StatusBadgeTemplate
+from ._anvil_designer import Logo_IconTemplate
 from anvil import *
 
 
-class StatusBadge(StatusBadgeTemplate):
+class Logo_Icon(Logo_IconTemplate):
   def __init__(self, **properties):
     # Set Form properties and Data Bindings.
     self.init_components(**properties)

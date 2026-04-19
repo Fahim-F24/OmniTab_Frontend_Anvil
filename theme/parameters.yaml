@@ -1,8 +1,9 @@
 roles:
 - components: [XYPanel]
-  name: minecraft_banner
+  name: minecraft_banner_top
 - components: [RichText]
   name: headline
 - components: [RichText]
   name: subheadline
-- {components: null, display_in_toolbox: true, name: status-badge}
+- components: [XYPanel]
+  name: minecraft_banner_bottom

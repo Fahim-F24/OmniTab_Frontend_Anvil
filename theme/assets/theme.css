@@ -1,3 +1,11 @@
+.anvil-role-fixed-size {
+  width: 1280px !important;
+  height: 800px !important;
+  margin: 0 auto;        /* Centers it horizontally */
+  overflow: hidden;      /* Prevents scrollbars */
+  background: white;     /* Or your theme color */
+}
+
 /* The general shape for all badges */
 .anvil-role-status-badge {
   background-color: #fcf1de; /* Default light cream */
@@ -10,16 +18,27 @@
   box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
 
-.anvil-role-minecraft_banner {
-  background-image: url("_/theme/banner_placeholder.jpg"); /* Upload your image to Assets first */
+.anvil-role-minecraft_banner_top {
+  background-image: url("_/theme/banner_top.jpg"); /* Upload your image to Assets first */
   background-size: cover;
   background-position: center;
   height: 300px; /* Forces the height you want */
-  display: flex;
+  display: ;
   flex-direction: column;
   justify-content: center; /* Centers text vertically - change as needed */
   align-items: center;     /* Centers text horizontally - change as needed */
 }
+
+.anvil-role-minecraft_banner_bottom {
+  background-image: url("_/theme/banner_bottom.png"); /* Upload your image to Assets first */
+  background-size: cover;
+  background-position: center;
+  display: ;
+  flex-direction: column;
+  justify-content: center; /* Centers text vertically - change as needed */
+  align-items: center;     /* Centers text horizontally - change as needed */
+}
+
 
 /* Style for the main Headline */
 .anvil-role-headline {
@@ -40,6 +59,3 @@
   text-shadow: 1px 1px #000000;
 }
 
-.anvil-background{
-  background-color: #000000
-}

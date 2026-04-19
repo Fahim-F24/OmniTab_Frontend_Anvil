@@ -1,0 +1,40 @@
+components:
+- components:
+  - layout_properties: {width: 56, x: 0, y: 0}
+    name: image_1
+    properties:
+      background: ''
+      height: 45
+      margin: ['2', null, null, null]
+      source: _/theme/clock.png
+    type: Image
+  - layout_properties: {width: 246, x: 77, y: 4}
+    name: rich_text_1
+    properties:
+      align: left
+      content: 'Last Updated: 8:23PM'
+      font: minecraft
+      font_size: 27
+      format: plain_text
+      role: null
+      spacing:
+        margin: ['', null, null, '10']
+        padding: ['0', null, '0', null]
+    type: RichText
+  event_bindings: {}
+  layout_properties: {full_width_row: false, grid_position: 'ZBFRHU,QFZHYT'}
+  name: Player_Online_Status_Badge
+  properties: {height: '50', role: status-badge, width: 400}
+  type: XYPanel
+container:
+  properties:
+    col_spacing: none
+    spacing:
+      padding: [null, '0', null, null]
+    visible: true
+    wrap_on: never
+  type: ColumnPanel
+custom_component: true
+is_package: true
+toolbox_item:
+  icon: {}
