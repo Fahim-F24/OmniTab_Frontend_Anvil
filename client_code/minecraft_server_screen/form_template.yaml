@@ -6,22 +6,23 @@ components:
       properties:
         display_mode: zoom_to_fill
         margin: ['-50', null, null, '-40']
-        source: _/theme/icon.png
+        source: _/theme/Copilot_20260419_130117.png
       type: Image
     layout_properties: {width: 102, x: 118.046875, y: 0}
     name: xy_panel_2
     properties: {height: 100}
     type: XYPanel
-  - layout_properties: {width: 439, x: 295.046875, y: 48.046875}
+  - layout_properties: {width: 463, x: 295.046875, y: 48.046875}
     name: motd_tagline
     properties:
       content: Now With Emotionally Stable Ghasts
       role: subheadline
       spacing:
-        margin: ['-75', null, null, null]
+        margin: ['-20', null, null, '25']
+        padding: ['0', null, '0', null]
     type: RichText
   - data_bindings: []
-    layout_properties: {width: 737, x: 296.09375, y: 0}
+    layout_properties: {width: 745, x: 296.09375, y: 0}
     name: motd_title
     properties:
       align: left
@@ -29,8 +30,8 @@ components:
       format: markdown
       role: headline
       spacing:
-        margin: ['-86', null, null, null]
-        padding: ['0', null, null, null]
+        margin: ['-65', null, null, '20']
+        padding: ['0', null, '0', null]
     type: RichText
   layout_properties: {full_width_row: true, grid_position: 'PXZERV,SIIWRA'}
   name: minecraft_banner_XYpanel

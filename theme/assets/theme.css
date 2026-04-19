@@ -24,8 +24,8 @@
 /* Style for the main Headline */
 .anvil-role-headline {
   font-family: 'Minecraft', sans-serif; /* Assumes you've uploaded the font */
-  font-size: 32px;
-  color: #552583; /* Your Minecraft purple */
+  font-size: 48px;
+  color: #ffffff; /* Your Minecraft purple */
   font-weight: bold;
   text-shadow: 2px 2px #000000; /* Gives it that classic UI pop */
   margin-bottom: 5px;
@@ -34,7 +34,7 @@
 /* Style for the Sub-headline */
 .anvil-role-subheadline {
   font-family: 'Minecraft', sans-serif;
-  font-size: 18px;
+  font-size: 28px;
   color: #ffffff; /* White or light grey */
   font-style: italic;
   text-shadow: 1px 1px #000000;
