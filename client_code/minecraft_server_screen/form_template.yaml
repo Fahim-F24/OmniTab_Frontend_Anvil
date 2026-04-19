@@ -88,7 +88,12 @@ components:
       margin: ['0', null, '0', null]
       padding: [null, null, '4', null]
   type: ColumnPanel
-- layout_properties: {full_width_row: true, grid_position: 'LYGLAJ,QCELXU'}
+- components:
+  - layout_properties: {width: 1280, x: 34.046875, y: 55}
+    name: player_container
+    properties: {}
+    type: FlowPanel
+  layout_properties: {full_width_row: true, grid_position: 'LYGLAJ,QCELXU'}
   name: xy_panel_1
   properties:
     height: 100

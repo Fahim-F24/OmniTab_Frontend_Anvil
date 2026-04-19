@@ -7,3 +7,5 @@ roles:
   name: subheadline
 - components: [XYPanel]
   name: minecraft_banner_bottom
+- components: [XYPanel]
+  name: status_badge

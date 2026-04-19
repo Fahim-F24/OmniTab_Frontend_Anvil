@@ -23,8 +23,8 @@ components:
     type: RichText
   event_bindings: {}
   layout_properties: {full_width_row: false, grid_position: 'ZBFRHU,QFZHYT'}
-  name: Player_Online_Status_Badge
-  properties: {height: '50', role: status-badge, width: 350}
+  name: Server_Status_Badge
+  properties: {height: '50', role: status_badge, width: 350}
   type: XYPanel
 container:
   properties:

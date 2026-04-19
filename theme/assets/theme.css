@@ -7,7 +7,7 @@
 }
 
 /* The general shape for all badges */
-.anvil-role-status-badge {
+.anvil-role-status_badge {
   background-color: #fcf1de; /* Default light cream */
   border: 1px solid #dcd0b9;
   border-radius: 15px;       /* Makes it a "pill" shape */

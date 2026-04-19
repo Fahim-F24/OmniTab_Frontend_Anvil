@@ -1,8 +1,8 @@
-from ._anvil_designer import Logo_IconTemplate
+from ._anvil_designer import ItemTemplate1Template
 from anvil import *
 
 
-class Logo_Icon(Logo_IconTemplate):
+class ItemTemplate1(ItemTemplate1Template):
   def __init__(self, **properties):
     # Set Form properties and Data Bindings.
     self.init_components(**properties)
