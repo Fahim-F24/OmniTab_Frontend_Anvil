@@ -39,16 +39,26 @@ components:
     margin: ['0', null, '0', null]
     role: minecraft_banner
   type: XYPanel
-- layout_properties: {full_width_row: true, grid_position: 'CKVJSB,RMXBMK'}
-  name: status_linear_panel
-  properties: {}
-  type: LinearPanel
-- layout_properties: {full_width_row: true, grid_position: 'BZIHGZ,CNBQKO'}
+- components:
+  - layout_properties: {}
+    name: status_badge_1
+    properties: {}
+    type: form:StatusBadge
+  - layout_properties: {}
+    name: status_badge_2
+    properties: {}
+    type: form:StatusBadge
+  - layout_properties: {}
+    name: status_badge_3
+    properties: {}
+    type: form:StatusBadge
+  - layout_properties: {}
+    name: status_badge_4
+    properties: {}
+    type: form:StatusBadge
+  layout_properties: {full_width_row: true, grid_position: 'JQTLTX,MFGBFH'}
   name: flow_panel_1
-  properties:
-    gap: none
-    spacing:
-      padding: [0, null, 0, null]
+  properties: {align: center, gap: medium}
   type: FlowPanel
 container: {type: ColumnPanel}
 is_package: true
