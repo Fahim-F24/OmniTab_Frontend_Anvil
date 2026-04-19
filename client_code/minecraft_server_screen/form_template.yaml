@@ -75,7 +75,7 @@ components:
   name: flow_panel_1
   properties:
     align: center
-    background: '#000000'
+    background: '#382517'
     gap: medium
     spacing:
       margin: ['0', null, '0', null]
