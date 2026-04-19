@@ -14,7 +14,7 @@ class minecraft_server_screen(minecraft_server_screenTemplate):
     self.player_container.clear()
 
     # Your manual test array
-    online_players = ["RampageIsAgo", "TheBigSniffer", "Deku19", "Notch", "Herobrine", "DASDa", "asdok34", "das94dfk"] 
+    online_players = ["RampageIsAgo", "TheBigSniffer", "Deku19", "Notch", "Herobrine", "DASDa", "asdok34", "das94dfk", "Herobrine", "DASDa", "asdok34", "das94dfk"] 
 
     for name in online_players:
       new_badge = Player_Name_Badge(player_name=name)

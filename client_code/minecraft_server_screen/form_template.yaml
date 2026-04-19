@@ -55,7 +55,7 @@ components:
       padding: [null, null, '4', null]
   type: ColumnPanel
 - components:
-  - layout_properties: {}
+  - layout_properties: {expand: false}
     name: player_online_status_badge_1
     properties: {}
     type: form:Player_Online_Status_Badge
@@ -89,9 +89,9 @@ components:
       padding: [null, null, '4', null]
   type: ColumnPanel
 - components:
-  - layout_properties: {width: 1256, x: 37.09375, y: 55}
+  - layout_properties: {width: 1362, x: 100, y: 21}
     name: player_container
-    properties: {align: right}
+    properties: {align: center}
     type: FlowPanel
   layout_properties: {full_width_row: true, grid_position: 'LYGLAJ,QCELXU'}
   name: xy_panel_1

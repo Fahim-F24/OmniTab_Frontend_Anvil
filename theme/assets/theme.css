@@ -33,7 +33,7 @@
   background-image: url("_/theme/banner_bottom.png"); /* Upload your image to Assets first */
   background-size: cover;
   background-position: center;
-  height: 600px;
+  height: 400px;
   display: ;
   flex-direction: column;
   justify-content: center; /* Centers text vertically - change as needed */

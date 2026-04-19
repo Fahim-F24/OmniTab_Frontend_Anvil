@@ -30,6 +30,7 @@ container:
   properties:
     col_spacing: none
     spacing:
+      margin: [null, '10', null, null]
       padding: [null, '0', null, null]
     visible: true
     wrap_on: never
