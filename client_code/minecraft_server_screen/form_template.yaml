@@ -89,7 +89,7 @@ components:
       padding: [null, null, '4', null]
   type: ColumnPanel
 - components:
-  - layout_properties: {width: 1280, x: 37.09375, y: 55}
+  - layout_properties: {width: 1256, x: 37.09375, y: 55}
     name: player_container
     properties: {align: right}
     type: FlowPanel
