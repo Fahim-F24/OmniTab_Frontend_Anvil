@@ -1,7 +1,16 @@
 components:
-- layout_properties: {full_width_row: true, grid_position: 'MRPHWF,IDFVIG'}
-  name: flow_panel_1
-  properties: {role: status-badge, visible: true}
-  type: FlowPanel
+- components:
+  - components: []
+    layout_properties: {width: 296, x: 2.546875, y: 0}
+    name: xy_panel_2
+    properties:
+      height: 26
+      margin: ['2', null, null, null]
+    type: XYPanel
+  layout_properties: {grid_position: 'NQTJRB,QHJPFH'}
+  name: xy_panel_1
+  properties: {height: '50', role: status-badge, width: 300}
+  type: XYPanel
 container: {type: ColumnPanel}
+custom_component: true
 is_package: true
