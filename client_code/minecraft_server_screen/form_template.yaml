@@ -1,13 +1,6 @@
 components:
 - components:
-  - components:
-    - layout_properties: {width: 200, x: 0, y: 0}
-      name: server_logo
-      properties:
-        display_mode: zoom_to_fill
-        margin: ['-50', null, null, '-40']
-        source: _/theme/Copilot_20260419_130117.png
-      type: Image
+  - components: []
     layout_properties: {width: 102, x: 118.046875, y: 0}
     name: xy_panel_2
     properties: {height: 100}
@@ -33,6 +26,15 @@ components:
         margin: ['-65', null, null, '20']
         padding: ['0', null, '0', null]
     type: RichText
+  - layout_properties: {width: 533, x: 110.09375, y: 0}
+    name: server_logo
+    properties:
+      display_mode: zoom_to_fill
+      height: 372
+      horizontal_align: center
+      margin: ['-95', null, null, '-190']
+      source: _/theme/Copilot_20260419_135553_11zon.png
+    type: Image
   layout_properties: {full_width_row: true, grid_position: 'PXZERV,SIIWRA'}
   name: minecraft_banner_XYpanel
   properties:
