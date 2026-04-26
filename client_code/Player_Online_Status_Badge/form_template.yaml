@@ -4,13 +4,13 @@ components:
     name: image_1
     properties: {background: '', height: 48, source: _/theme/Players-Online.png}
     type: Image
-  - layout_properties: {width: 246, x: 77, y: 4}
+  - layout_properties: {width: 223, x: 54, y: 7}
     name: rich_text_1
     properties:
-      align: left
+      align: center
       content: 'Players Online: 0/12'
       font: minecraft
-      font_size: 27
+      font_size: 24
       format: plain_text
       spacing:
         margin: ['', null, null, '0']
@@ -23,7 +23,7 @@ components:
     height: '50'
     margin: [null, null, null, '10']
     role: status_badge
-    width: 320
+    width: 280
   type: XYPanel
 container:
   properties:

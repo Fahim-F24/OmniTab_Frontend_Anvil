@@ -1,18 +1,10 @@
 components:
 - components:
-  - layout_properties: {width: 56, x: 0, y: 0}
-    name: image_1
-    properties:
-      background: ''
-      height: 45
-      margin: ['2', null, null, null]
-      source: _/theme/Server-Status.png
-    type: Image
-  - layout_properties: {width: 246, x: 77, y: 4}
+  - layout_properties: {width: 158, x: 13.046875, y: 4.046875}
     name: rich_text_1
     properties:
       align: left
-      content: 'Server Status: Online'
+      content: 'Server Status:'
       font: minecraft
       font_size: 27
       format: plain_text
@@ -21,10 +13,18 @@ components:
         margin: ['', null, null, '0']
         padding: ['0', null, '0', null]
     type: RichText
+  - layout_properties: {width: 56, x: 180.09375, y: 3.09375}
+    name: image_1
+    properties:
+      background: ''
+      height: 45
+      margin: ['0', null, null, null]
+      source: _/theme/Server-Status.png
+    type: Image
   event_bindings: {}
   layout_properties: {full_width_row: false, grid_position: 'ZBFRHU,QFZHYT'}
   name: Server_Status_Badge
-  properties: {height: '50', role: status_badge, width: 320}
+  properties: {height: '50', role: status_badge, width: 250}
   type: XYPanel
 container:
   properties:

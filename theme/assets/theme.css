@@ -1,6 +1,6 @@
 .anvil-container {
   max-width: 1280px;
-  height: 800px;    /* Forces height */
+  max-height: 800px;    /* Forces height */
   margin: 0 auto;
 }
 
@@ -28,7 +28,8 @@
   background-image: url("_/theme/banner_top.jpg"); /* Upload your image to Assets first */
   background-size: cover;
   background-position: center;
-  height: 150px; /* Forces the height you want */
+  height: 300px; /* Forces the height you want */
+  max-width: 1280px;
   display: ;
   flex-direction: column;
   justify-content: center; /* Centers text vertically - change as needed */
@@ -39,7 +40,7 @@
   background-image: url("_/theme/banner_bottom.png"); /* Upload your image to Assets first */
   background-size: cover;
   background-position: center;
-  height: 200px;
+  height: 500px;
   display: ;
   flex-direction: column;
   justify-content: center; /* Centers text vertically - change as needed */
