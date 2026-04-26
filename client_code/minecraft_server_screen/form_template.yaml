@@ -1,12 +1,4 @@
 components:
-- components: []
-  layout_properties: {full_width_row: true, grid_position: 'CYSBUT,RSKJUN', row_background: '#008fe0'}
-  name: Spacer_Line
-  properties:
-    spacing:
-      margin: ['0', null, '0', null]
-      padding: [null, null, '4', null]
-  type: ColumnPanel
 - components:
   - layout_properties: {width: 463, x: 295.046875, y: 48.046875}
     name: motd_tagline
@@ -46,14 +38,6 @@ components:
     margin: ['0', null, '0', null]
     role: minecraft_banner_top
   type: XYPanel
-- components: []
-  layout_properties: {full_width_row: true, grid_position: 'EDMOGO,PXLWKR', row_background: '#008fe0'}
-  name: Spacer_Line_2
-  properties:
-    spacing:
-      margin: ['0', null, '0', null]
-      padding: [null, null, '4', null]
-  type: ColumnPanel
 - components:
   - layout_properties: {expand: false}
     name: player_online_status_badge_1
@@ -80,14 +64,6 @@ components:
     spacing:
       margin: ['0', null, '0', null]
   type: FlowPanel
-- components: []
-  layout_properties: {full_width_row: true, grid_position: 'OHNEXV,CUXHYR', row_background: '#008fe0'}
-  name: Spacer_Line_3
-  properties:
-    spacing:
-      margin: ['0', null, '0', null]
-      padding: [null, null, '4', null]
-  type: ColumnPanel
 - components:
   - layout_properties: {width: 1351, x: 111.046875, y: 55}
     name: player_container
