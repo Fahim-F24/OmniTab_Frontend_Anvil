@@ -13,7 +13,7 @@ components:
       font_size: 27
       format: plain_text
       spacing:
-        margin: ['', null, null, '10']
+        margin: ['', null, null, '0']
         padding: ['0', null, '0', null]
     type: RichText
   event_bindings: {}
@@ -23,7 +23,7 @@ components:
     height: '50'
     margin: [null, null, null, '10']
     role: status_badge
-    width: 350
+    width: 320
   type: XYPanel
 container:
   properties:

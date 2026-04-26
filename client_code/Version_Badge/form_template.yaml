@@ -24,7 +24,7 @@ components:
   event_bindings: {}
   layout_properties: {full_width_row: false, grid_position: 'ZBFRHU,QFZHYT'}
   name: Version_Badge
-  properties: {height: '50', role: status_badge, width: 350}
+  properties: {height: '50', role: status_badge, width: 320}
   type: XYPanel
 container:
   properties:

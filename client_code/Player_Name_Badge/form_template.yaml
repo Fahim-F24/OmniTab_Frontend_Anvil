@@ -8,6 +8,7 @@ components:
       bold: true
       font_size: 27
       spacing:
+        margin: [null, null, null, '0']
         padding: ['0', null, null, null]
       text: |
         Player Name Is

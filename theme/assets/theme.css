@@ -22,7 +22,7 @@
   background-image: url("_/theme/banner_top.jpg"); /* Upload your image to Assets first */
   background-size: cover;
   background-position: center;
-  height: 200px; /* Forces the height you want */
+  height: 000px; /* Forces the height you want */
   display: ;
   flex-direction: column;
   justify-content: center; /* Centers text vertically - change as needed */

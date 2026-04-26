@@ -14,7 +14,7 @@ components:
       content: Now With Emotionally Stable Ghasts
       role: subheadline
       spacing:
-        margin: ['60', null, null, '25']
+        margin: ['40', null, null, '25']
         padding: ['0', null, '0', null]
     type: RichText
   - data_bindings: []
@@ -27,15 +27,15 @@ components:
       format: markdown
       role: headline
       spacing:
-        margin: ['10', null, null, '20']
+        margin: ['-20', null, null, '20']
         padding: ['0', null, '0', null]
     type: RichText
   - layout_properties: {width: 239, x: 67.09375, y: 0}
     name: image_1
     properties:
       display_mode: shrink_to_fit
-      height: 184
-      margin: ['10', null, null, null]
+      height: 153
+      margin: ['-3', null, null, null]
       source: _/theme/Cream CCS4_XL.png
     type: Image
   layout_properties: {full_width_row: true, grid_position: 'PXZERV,SIIWRA'}
@@ -89,9 +89,12 @@ components:
       padding: [null, null, '4', null]
   type: ColumnPanel
 - components:
-  - layout_properties: {width: 1362, x: 100, y: 21}
+  - layout_properties: {width: 1351, x: 111.046875, y: 55}
     name: player_container
-    properties: {align: center}
+    properties:
+      align: center
+      spacing:
+        margin: [null, null, null, '-20']
     type: FlowPanel
   layout_properties: {full_width_row: true, grid_position: 'LYGLAJ,QCELXU'}
   name: xy_panel_1
