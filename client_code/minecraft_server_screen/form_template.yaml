@@ -33,9 +33,9 @@ components:
   - layout_properties: {width: 239, x: 67.09375, y: 0}
     name: image_1
     properties:
-      display_mode: zoom_to_fill
-      height: 268
-      margin: ['15', null, null, null]
+      display_mode: shrink_to_fit
+      height: 184
+      margin: ['10', null, null, null]
       source: _/theme/Cream CCS4_XL.png
     type: Image
   layout_properties: {full_width_row: true, grid_position: 'PXZERV,SIIWRA'}
